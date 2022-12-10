@@ -1,0 +1,19 @@
+{
+  "name": "ts-crash-course--node-only",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "tsc --watch  &  npx nodemon dist",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.11.12",
+    "nodemon": "^2.0.20",
+    "typescript": "^4.9.4"
+  }
+}
